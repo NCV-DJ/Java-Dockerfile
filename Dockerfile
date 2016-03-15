@@ -36,7 +36,7 @@ ENV CATALINA_HOME /opt/tomcat
 ENV PATH $PATH:$CATALINA_HOME/bin
 
 # Add war file to webapps
-ADD dockerwar.war /opt/tomcat/webapps/
+ADD samplejava.war /opt/tomcat/webapps/
 
 EXPOSE 8080
 EXPOSE 8009
